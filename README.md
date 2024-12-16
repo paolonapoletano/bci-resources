@@ -9,7 +9,7 @@ This is a curated collection of tools, datasets, research papers, tutorials, and
 
 The repository is organized into the following sections:
 
-1. [**Datasets**](#datasets)  
+1. **[Datasets](#datasets)**  
    - Public EEG/BCI datasets for research and experimentation.
    - Includes motor imagery, visual evoked potentials (VEP), and more.
 
