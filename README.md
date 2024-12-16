@@ -1,7 +1,6 @@
 # BCI Resources Repository
 
 ## 🧠 Overview
-Welcome to the **BCI Resources Repository**!  
 This is a curated collection of tools, datasets, research papers, tutorials, and software for anyone interested in **Brain-Computer Interface (BCI)** technologies. Whether you're a beginner or an experienced researcher, this repository is designed to be your go-to resource for exploring and innovating in the field of BCI.
 
 ---
@@ -16,7 +15,7 @@ The repository is organized into the following sections:
 
 2. **Software Tools**  
    - Libraries and frameworks for signal processing and analysis.
-   - Examples: OpenBCI, MNE-Python, BCILAB.
+   - Examples: EEGLab, OpenBCI, MNE-Python, BCILAB.
 
 3. **Tutorials & Guides**  
    - Step-by-step guides to get started with BCI.
@@ -58,13 +57,6 @@ Please follow the contribution guidelines in the [CONTRIBUTING.md](CONTRIBUTING.
 
 ---
 
-## 🌟 Why BCI?
-
-Brain-Computer Interface technology bridges the gap between the human brain and machines, enabling groundbreaking applications in healthcare, assistive technology, gaming, and more.  
-By sharing these resources, we hope to foster innovation and collaboration in this rapidly growing field.
-
----
-
 ## 📜 License
 
 This repository is licensed under the [MIT License](LICENSE).
@@ -74,7 +66,7 @@ This repository is licensed under the [MIT License](LICENSE).
 ## 📬 Feedback & Contact
 
 Have suggestions, feedback, or found a broken link?  
-Feel free to [open an issue](https://github.com/your-repo/issues) or reach out via email at [YourEmail@example.com](mailto:YourEmail@example.com).
+Feel free to [open an issue](https://github.com/your-repo/issues) or reach out via email at [paolo.napoletano@unimib.it](mailto:paolo.napoletano@unimib.it).
 
 ---
 
