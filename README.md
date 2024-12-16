@@ -1,2 +1,2 @@
-# bci-resources
+# Bci-Resources Repository
 bci-resources
