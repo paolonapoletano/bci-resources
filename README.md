@@ -44,6 +44,22 @@ To begin your BCI journey:
 
 ---
 
+## 📊 Datasets
+
+Below is a table summarizing key datasets for BCI research. Each dataset includes details like the number of subjects, recording devices, sampling rate, and specific tasks.
+
+| Dataset Name                           | Subjects | Device                | Task Type                | Sampling Rate | Additional Info                                      |
+|---------------------------------------|----------|-----------------------|--------------------------|---------------|----------------------------------------------------|
+| [BCI Competition Datasets](http://www.bbci.de/competition/) | Varies   | Various               | Motor Imagery, P300     | Varies        | Includes multiple competition datasets.            |
+| [OpenBCI Sample Data](https://openbci.com/data-sharing/) | Varies   | OpenBCI               | Various BCI tasks       | 125-250 Hz    | Ideal for hardware experimentation.                |
+| [PhysioNet EEG Motor Imagery Dataset](https://physionet.org/content/eegmmidb/1.0.0/) | 109      | BCI2000 System        | Motor Imagery           | 160 Hz        | Designed for machine learning experiments.         |
+| [TUH EEG Corpus](https://www.isip.piconepress.com/projects/tuh_eeg/html/downloads.shtml) | Thousands| Various               | Clinical (e.g., seizures)| Varies        | Largest open-source EEG dataset.                   |
+| [SEED Dataset](http://bcmi.sjtu.edu.cn/~seed/) | 15       | ESI NeuroScan         | Emotion Recognition     | 1000 Hz       | Focuses on EEG-based emotion recognition.          |
+
+Feel free to suggest additional datasets or update this table via a pull request!
+
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome to help expand and maintain this repository!  
