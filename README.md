@@ -86,6 +86,6 @@ Feel free to [open an issue](https://github.com/your-repo/issues) or reach out v
 
 ---
 
-## ❤️ Acknowledgments
+## 🤝 Acknowledgments
 
 Special thanks to the open-source community and researchers who made these resources possible.
