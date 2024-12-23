@@ -55,11 +55,21 @@ Below is a table summarizing key datasets for BCI research. Each dataset include
 | [PhysioNet EEG Motor Imagery Dataset](https://physionet.org/content/eegmmidb/1.0.0/) |2003 | 109      | BCI2000 System        | Motor Imagery           | 160 Hz        | Designed for machine learning experiments.         |
 | [TUH EEG Corpus](https://www.isip.piconepress.com/projects/tuh_eeg/html/downloads.shtml) |2003 | Thousands| Various               | Clinical (e.g., seizures)| Varies        | Largest open-source EEG dataset.                   |
 | [SEED Dataset](http://bcmi.sjtu.edu.cn/~seed/) |2003 | 15       | ESI NeuroScan         | Emotion Recognition     | 1000 Hz       | Focuses on EEG-based emotion recognition.          |
+| [WAUC: A Multi-Modal Database for Mental Workload Assessment Under Physical Activity](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2020.549524/full) | 2020 | 48 | Enobio portable 8-channel wireless EEG headset | Mental and physical induced perceived stress | 500 Hz | |
+| [PASS: A Multimodal Database of Physical Activity and Stress for Mobile Passive Body/ Brain-Computer Interface Research](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2020.542934/full) | 2020 | 48 | Muse headband | Mental and physical induced perceived stress | 220 Hz | | 
+| [SAM 40: Dataset of 40 subject EEG recordings to monitor the induced-stress while performing Stroop color-word test, arithmetic task, and mirror image recognition task](https://www.sciencedirect.com/science/article/pii/S2352340921010465) | 2022 | 40 | Emotiv Epoc Flex gel kit | Mental induced perceived stress | 128 Hz | |
+| [A Dataset of Scalp EEG Recordings of Alzheimer’s Disease, Frontotemporal Dementia and Healthy Subjects from Routine EEG](https://www.mdpi.com/2306-5729/8/6/95) | 2023 | 88 | Nihon Kohden 2100 | Clinical (Alzheimer, Frontotemporal dementia, Control) | 500 Hz | Raw and pre-processed data available |
+
 
 Feel free to suggest additional datasets or update this table via a pull request!
 
 ---
 
+## Software tools
+
+- MetaBCI (https://github.com/TBC-TJU/MetaBCI)
+- MNE Python (https://mne.tools/stable/index.html)
+- MOABB Mother of all BCI Benchmarks (https://moabb.neurotechx.com/docs/index.html)
 ## 🤝 Contributing
 
 Contributions are welcome to help expand and maintain this repository!  
