@@ -138,6 +138,19 @@ Feel free to suggest additional datasets or update this table via a pull request
 | [THINGS-EEG](https://doi.org/10.1038/s41597-021-01102-7) | 2021 | Brain to Image |  | 50 | 64 | 1000 | 36.05 | yes |  |
 | [A Representational Similarity Analysis of the Dynamics of Object Processing Using Single-Trial EEG Classification](https://doi.org/10.1371/journal.pone.0135697) | 2015 | Brain to Image |  | 10 | 128 | 1000 | 18.0 | yes |  |
 | [Multivariate pattern analysis of MEG and EEG: A comparison of representational structure in time and space](https://doi.org/10.1016/j.neuroimage.2017.07.023) | 2017 | Brain to Image |  | 16 | 74 | 1000 | 19.33 | yes |  |
+| [Resting State EEG Data](https://doi.org/10.3389/fnins.2017.00425) | 2017 | No task |  | 22 | 64 | 256 | 3.04 | yes |  |
+| [SPIS Resting State](https://doi.org/10.1109/JBHI.2020.2980056) | 2020 | Sustained attention |  | 10 | 64 | 2048 | 0.83 | yes |  |
+| [Target Versus Non-Target](https://hal.science/hal-02172347) | 2019 | P300 BCI |  | 50 | 32 | 512 | 16 | yes |  |
+| [The slowest wave](https://link.springer.com/article/10.1186/s12868-024-00864-1) | 2023 | Dance |  | 5 | 28 | 1000 | > 26 | no |  |
+| [A test-retest resting and cognitive state](https://www.nature.com/articles/s41597-022-01607-9) | 2022 | Test-retest |  | 60 | 64 | 500 | 75 | yes |  |
+| [A Benchmark Dataset for SSVEP-Based Brain-Computer Interfaces](https://doi.org/10.1109/TNSRE.2016.2627556) | 2017 | SSVEP |  | 35 | 64 | 250 | 11.6 | yes | torcheeg |
+| [SanDiegoSSVEPDataset](https://doi.org/10.1371/journal.pone.0140703) | 2015 | SSVEP |  | 10 | 8 | 256 | 2 | yes | torcheeg |
+| [HMCDataset](https://doi.org/10.1371/journal.pone.0256111) | 2022 | Sleep stages |  | 151 | 8 | 256 | 1057 | no | torcheeg |
+| [ISRUCDataset](https://doi.org/10.1016/j.cmpb.2015.10.013) | 2016 | Sleep stages |  | 118 | 19 | ? | 1008 | no | torcheeg |
+| [P2018Dataset](https://doi.org/10.22489/CinC.2018.049) | 2018 | Sleep stages |  | 1985 | 6 | 200 | 13895 | no | torcheeg |
+| [SleepEDFxDataset](https://doi.org/10.1109/10.867928) | 2000 | Sleep stages |  | 197 | 2 | 100 | 1379 | no | torcheeg |
+| [BOAS](https://doi.org/10.18112/openneuro.ds005555.v1.0.0) | 2024 | Sleep stages |  | 128 | 2 | 256 | 1024 | no |  |
+
 
 
 
