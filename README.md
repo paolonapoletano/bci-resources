@@ -43,7 +43,7 @@ To begin your BCI journey:
 4. Dive deeper into the [Research Papers](#research-papers) for academic insights.
 
 ---
-
+<!---
 ## 📊 Datasets
 
 Below is a table summarizing key datasets for BCI research. Each dataset includes details like the number of subjects, recording devices, sampling rate, and specific tasks.
@@ -64,8 +64,12 @@ Below is a table summarizing key datasets for BCI research. Each dataset include
 Feel free to suggest additional datasets or update this table via a pull request!
 
 ---
-
+-->
 ## 📊 Datasets new
+
+The table below provides an overview of key datasets used in BCI research. It includes details such as the year of publication, task type, number of classes, participants, and channels, as well as the sampling frequency, total recording time, whether the data was collected in a lab setting, and its availability in BCI frameworks.
+
+
 | Dataset | Year | Task |#Classes | #Subjects | #Channels | Freq (Hz) | TotalTime (h) | LabSetting | Available in |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [A continuous pursuit dataset for online deep learning-based EEG brain-computer interface](https://doi.org/10.1038/s41597-024-04090-6) | 2024 | Motor Imagery | - | 28 | 64 | 1000 | 168.0 | yes | - |
@@ -151,7 +155,8 @@ Feel free to suggest additional datasets or update this table via a pull request
 | [SleepEDFxDataset](https://doi.org/10.1109/10.867928) | 2000 | Sleep stages |  | 197 | 2 | 100 | 1379 | no | torcheeg |
 | [BOAS](https://doi.org/10.18112/openneuro.ds005555.v1.0.0) | 2024 | Sleep stages |  | 128 | 2 | 256 | 1024 | no |  |
 
-
+Feel free to suggest additional datasets or update this table via a pull request!
+---
 
 
 ## Software tools
