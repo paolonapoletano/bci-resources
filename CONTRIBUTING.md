@@ -1,13 +1,11 @@
 # Contribution Guidelines
 
-## Adding to this list
-
 Please ensure your pull request adheres to the following guidelines:
 
 - Make an individual pull request for each suggestion.
-- Use the following format: `* [package](link) - Description.`
-- Sort alphabetically inside the categories.
-- New categories or improvements to the existing categorization are welcome.
+- Respect the formats already used by the rest of the content.
+- Sort the datasets chronologically in the various tables.
+- New categories/tasks or improvements to the existing material are welcome.
 - Check your spelling and grammar.
 - The pull request and commit should have a useful title.
 
