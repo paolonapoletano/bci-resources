@@ -65,7 +65,7 @@ Feel free to suggest additional datasets or update this table via a pull request
 
 ---
 -->
-## 📊 Datasets new
+## 📊 Datasets
 The tables below, one for each task, provides an overview of key datasets used in BCI research. It includes details such as the year of publication, task type, number of classes, participants, and channels, as well as the sampling frequency, total recording time, whether the data was collected in a lab setting, and its availability in BCI frameworks.
 
 ### Motor Imagery
@@ -88,7 +88,6 @@ Emotion recognition is the task of identifying and classifying human emotions fr
 | [SAFE](https://doi.org/10.1016/j.aei.2020.101047) | 2020 | ER | V/A | 6 | 14.0 | 128.0 | 8.1 | yes |
 | [SEED-IV](https://bcmi.sjtu.edu.cn/~seed/seed-iv.html) | 2019 | ER | Discrete | 15 | 62.0 | 200.0 | 51 | yes |
 | [MPED](https://doi.org/10.1109/ACCESS.2019.2891579) | 2019 | ER | V/A | 23 | 62.0 | 1000.0 | 41.93 | yes |
-| [Dreamer ](https://doi.org/10.1109/JBHI.2017.2688239) | 2018 | ER | V/A | 23 | 16.0 | 128.0 | 6.9 | yes |
 | [AMIGOS](http://www.eecs.qmul.ac.uk/mmv/datasets/amigos/index.html) | 2018 | ER | V/A | 40 | 14.0 | 128.0 | 1.9 | yes |
 | [DREAMER](https://doi.org/10.1109/JBHI.2017.2688239) | 2017 | ER | V/A | 23 | 14.0 | 128.0 | 6.9 | yes |
 | [Neuromarketing](https://doi.org/10.1007/s11042-017-4580-6) | 2017 | ER | Discrete | 25 | 14.0 | 128.0 | 1.16 | yes |
@@ -113,10 +112,42 @@ Seizure prediction involves analyzing brain activity, typically from EEG, to det
 ### Brain-to-image
 Brain-to-image is the process of reconstructing visual perceptions or mental imagery from brain activity using techniques like fMRI, EEG, or MEG. Machine learning models, including deep neural networks, map neural signals to visual representations, enabling applications in neuroscience, BCI, and artificial vision.
 
+| Dataset | Year | Task | #Subjects | #Channels | Freq (Hz) | TotalTime (?) | LabSetting |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [Image classification and reconstruction from low-density EEG](https://doi.org/10.1038/s41598-024-66228-1) | 2024 | Brain-to-image | 9 | 8 | 250 | 54.0 | yes |
+| [EEG-ImageNet](https://arxiv.org/abs/2406.07151) | 2024 | Brain-to-image | 16 | 62 | 1000 | 8.86 | yes |
+| [Alljoined1](https://arxiv.org/abs/2404.05553) | 2024 | Brain-to-image | 8 | 64 | 512 | 61.01 | yes |
+| [A large and rich EEG dataset for modeling human visual object recognition](https://doi.org/10.1016/j.neuroimage.2022.119754) | 2022 | Brain-to-image | 10 | 64 | 1000 | 63.0 | yes |
+| [THINGS-EEG](https://doi.org/10.1038/s41597-021-01102-7) | 2021 | Brain-to-image | 50 | 64 | 1000 | 36.05 | yes |
+| [Object classification from randomized EEG trials](https://doi.org/10.1109/CVPR46437.2021.00384) | 2021 | Brain-to-image | 1 | 96 | 4096 | 33.88 | yes |
+| [Reading into the mind�s eye](https://doi.org/10.1016/j.neucom.2019.12.076) | 2019 | Brain-to-image | 6 | 14 | 2048 | 4.0 | yes |
+| [The representational dynamics of visual objects in rapid serial visual processing streams](https://doi.org/10.1016/j.neuroimage.2018.12.046) | 2019 | Brain-to-image | 16 | 64 | 1000 | 13.33 | yes |
+| [The set of 22 sessions of 14-channel eeg signals recorded during watching pictures](https://doi.org/10.34808/1e5c-pp74) | 2018 | Brain-to-image | 10 | 14 |  | 338.0 | yes |
+| [IMAGENET of The Brain](https://mindbigdata.com/opendb/imagenet.html) | 2018 | Brain-to-image | 1 | 5 | 128 | 58.38 | yes |
+| [Envisioned speech recognition using EEG sensors](https://doi.org/10.1007/s00779-017-1083-4) | 2017 | Brain-to-image | 23 | 14 | 128 | 3.83 | yes |
+| [Brain2Image](https://doi.org/10.1145/3123266.3127907) | 2017 | Brain-to-image | 6 | 128 | 1000 | 2.3 | yes |
+| [Multivariate pattern analysis of MEG and EEG: A comparison of representational structure in time and space](https://doi.org/10.1016/j.neuroimage.2017.07.023) | 2017 | Brain-to-image | 16 | 74 | 1000 | 19.33 | yes |
+| [A Representational Similarity Analysis of the Dynamics of Object Processing Using Single-Trial EEG Classification](https://doi.org/10.1371/journal.pone.0135697) | 2015 | Brain-to-image | 10 | 128 | 1000 | 18.0 | yes |
+| ["MNIST" of Brain Digits](https://mindbigdata.com/opendb/index.html) | 2015 | Brain-to-image | 1 | vari | 128 - 512 | 670.0 | yes |
+
 
 ### Other
 This section includes a variety of tasks.
 
+| Dataset | Year | Task | #Subjects | #Channels | Freq (Hz) | TotalTime (?) | LabSetting | Available in |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [BOAS](https://doi.org/10.18112/openneuro.ds005555.v1.0.0) | 2024 | Sleep stages | 128 | 2 | 256 | 1024 | no |  |
+| [The slowest wave](https://link.springer.com/article/10.1186/s12868-024-00864-1) | 2023 | Dance | 5 | 28 | 1000 | > 26 | no |  |
+| [A test-retest resting and cognitive state](https://www.nature.com/articles/s41597-022-01607-9) | 2022 | Test-retest | 60 | 64 | 500 | 75 | yes |  |
+| [HMCDataset](https://doi.org/10.1371/journal.pone.0256111) | 2022 | Sleep stages | 151 | 8 | 256 | 1057 | no | torcheeg |
+| [SPIS Resting State](https://doi.org/10.1109/JBHI.2020.2980056) | 2020 | Sustained attention | 10 | 64 | 2048 | 0.83 | yes |  |
+| [Target Versus Non-Target](https://hal.science/hal-02172347) | 2019 | P300 BCI | 50 | 32 | 512 | 16 | yes |  |
+| [P2018Dataset](https://doi.org/10.22489/CinC.2018.049) | 2018 | Sleep stages | 1985 | 6 | 200 | 13895 | no | torcheeg |
+| [Resting State EEG Data](https://doi.org/10.3389/fnins.2017.00425) | 2017 | No task | 22 | 64 | 256 | 3.04 | yes |  |
+| [A Benchmark Dataset for SSVEP-Based Brain-Computer Interfaces](https://doi.org/10.1109/TNSRE.2016.2627556) | 2017 | SSVEP | 35 | 64 | 250 | 11.6 | yes | torcheeg |
+| [ISRUCDataset](https://doi.org/10.1016/j.cmpb.2015.10.013) | 2016 | Sleep stages | 118 | 19 | 200 | 1008 | no | torcheeg |
+| [SanDiegoSSVEPDataset](https://doi.org/10.1371/journal.pone.0140703) | 2015 | SSVEP | 10 | 8 | 256 | 2 | yes | torcheeg |
+| [SleepEDFxDataset](https://doi.org/10.1109/10.867928) | 2000 | Sleep stages | 197 | 2 | 100 | 1379 | no | torcheeg |
 
 
 
