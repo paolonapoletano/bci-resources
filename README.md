@@ -43,33 +43,38 @@ To begin your BCI journey:
 4. Dive deeper into the [Research Papers](#research-papers) for academic insights.
 
 ---
-<!---
-## 📊 Datasets
 
-Below is a table summarizing key datasets for BCI research. Each dataset includes details like the number of subjects, recording devices, sampling rate, and specific tasks.
-
-| Dataset Name                           | Year | Subjects | Device                | Task Type                | Sampling Rate | Additional Info                                      |
-|---------------------------------------|----------|----------|-----------------------|--------------------------|---------------|----------------------------------------------------|
-| [BCI Competition Datasets](http://www.bbci.de/competition/) |2003 | Varies   | Various               | Motor Imagery, P300     | Varies        | Includes multiple competition datasets.            |
-| [OpenBCI Sample Data](https://openbci.com/data-sharing/) |2003 | Varies   | OpenBCI               | Various BCI tasks       | 125-250 Hz    | Ideal for hardware experimentation.                |
-| [PhysioNet EEG Motor Imagery Dataset](https://physionet.org/content/eegmmidb/1.0.0/) |2003 | 109      | BCI2000 System        | Motor Imagery           | 160 Hz        | Designed for machine learning experiments.         |
-| [TUH EEG Corpus](https://www.isip.piconepress.com/projects/tuh_eeg/html/downloads.shtml) |2003 | Thousands| Various               | Clinical (e.g., seizures)| Varies        | Largest open-source EEG dataset.                   |
-| [SEED Dataset](http://bcmi.sjtu.edu.cn/~seed/) |2003 | 15       | ESI NeuroScan         | Emotion Recognition     | 1000 Hz       | Focuses on EEG-based emotion recognition.          |
-| [WAUC: A Multi-Modal Database for Mental Workload Assessment Under Physical Activity](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2020.549524/full) | 2020 | 48 | Enobio portable 8-channel wireless EEG headset | Mental and physical induced perceived stress | 500 Hz | |
-| [PASS: A Multimodal Database of Physical Activity and Stress for Mobile Passive Body/ Brain-Computer Interface Research](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2020.542934/full) | 2020 | 48 | Muse headband | Mental and physical induced perceived stress | 220 Hz | | 
-| [SAM 40: Dataset of 40 subject EEG recordings to monitor the induced-stress while performing Stroop color-word test, arithmetic task, and mirror image recognition task](https://www.sciencedirect.com/science/article/pii/S2352340921010465) | 2022 | 40 | Emotiv Epoc Flex gel kit | Mental induced perceived stress | 128 Hz | |
-| [A Dataset of Scalp EEG Recordings of Alzheimer’s Disease, Frontotemporal Dementia and Healthy Subjects from Routine EEG](https://www.mdpi.com/2306-5729/8/6/95) | 2023 | 88 | Nihon Kohden 2100 | Clinical (Alzheimer, Frontotemporal dementia, Control) | 500 Hz | Raw and pre-processed data available |
-
-
-Feel free to suggest additional datasets or update this table via a pull request!
-
----
--->
 ## 📊 Datasets
 The tables below, one for each task, provides an overview of key datasets used in BCI research. It includes details such as the year of publication, task type, number of classes, participants, and channels, as well as the sampling frequency, total recording time, whether the data was collected in a lab setting, and its availability in BCI frameworks.
 
 ### Motor Imagery
 Motor Imagery (MI) in Brain-Computer Interface (BCI) applications refers to the mental simulation of movement without actual muscle activity. When a person imagines moving a limb (e.g., their left or right hand), specific patterns of brain activity, primarily in the sensorimotor cortex, can be detected using EEG. These patterns, often represented as event-related desynchronization (ERD) and event-related synchronization (ERS) in specific frequency bands (e.g., mu and beta), are used to decode the intended movement. MI-based BCIs enable applications like neurorehabilitation, prosthetic control, and communication for individuals with motor impairments.
+
+| Dataset | Year | Task | #Classes | #Subjects | #Channels | Freq (Hz) | TotalTime (h) | LabSetting | Available in |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [A continuous pursuit dataset for online  deep learning-based EEG  brain-computer interface](https://doi.org/10.1038/s41597-024-04090-6) | 2024 | Motor Imagery | - | 28.0 | 64.0 | 1000.0 | 168.0 | yes | - |
+| [Liu2024](https://doi.org/10.6084/m9.figshare.21679035.v5) | 2024 | Motor Imagery | 2 | 50.0 | 29.0 | 500.0 | 2.22 | yes | Moabb |
+| [Stieger2021](https://doi.org/10.1038/s41597-021-00883-1) | 2021 | Motor Imagery | 4 | 62.0 | 64.0 | 1000.0 | 208.33 | yes | Moabb |
+| [Lee2019_Motor Imagery](https://doi.org/10.1093/gigascience/giz002) | 2019 | Motor Imagery | 2 | 54.0 | 62.0 | 1000.0 | 12.22 | yes | Moabb |
+| [The largest SCP data of Motor-Imagery](https://doi.org/10.6084/m9.figshare.c.3917698) | 2018 | Motor Imagery |  | 13.0 | 19.0 | 1000.0 | 60.0 | yes | - |
+| [CHO2017](https://doi.org/10.1093/gigascience/gix034) | 2017 | Motor Imagery | 2 | 52.0 | 64.0 | 512.0 | 8.17 | yes | Moabb |
+| [High-Gamma Dataset](https://github.com/robintibor/high-gamma-dataset) | 2017 | Motor Imagery | 4 | 14.0 | 128.0 | 250.0 | 67.0 |  |  |
+| [Left/Right Hand Motor Imagery](http://gigadb.org/dataset/100295) | 2017 | Motor Imagery | 2 | 52.0 | 64.0 | 512.0 | 109.2 | yes | - |
+| [Ofner2017](https://doi.org/10.1371/journal.pone.0182578) | 2017 | Motor Imagery | 7 | 15.0 | 61.0 | 512.0 | 52.5 | yes | Moabb |
+| [Schirrmeister2017](https://doi.org/10.1002/hbm.23730) | 2017 | Motor Imagery | 4 | 14.0 | 128.0 | 500.0 | 14.93 | yes | Moabb |
+| [Shin2017A-B](https://doi.org/10.1109/TNSRE.2016.2628057) | 2017 | Motor Imagery | 2 | 29.0 | 30.0 | 200.0 | 14.5 | yes | Moabb |
+| [Zhou2016](https://doi.org/10.1371/journal.pone.0162657) | 2016 | Motor Imagery | 3 | 4.0 | 14.0 | 200.0 | 15.97 | yes | Moabb |
+| [BNCI2015 001]() | 2015 | Motor Imagery | 2 | 12.0 | 13.0 | 512.0 | 20.0 | yes | Moabb |
+| [BNCI2015 004]() | 2015 | Motor Imagery | 5 | 9.0 | 30.0 | 256.0 | 14.0 | yes | Moabb |
+| [BNCI2014 001]() | 2014 | Motor Imagery | 4 | 9.0 | 22.0 | 250.0 | 69.12 | yes | Moabb, Torcheeg |
+| [BNCI2014 002]() | 2014 | Motor Imagery | 2 | 14.0 | 15.0 | 512.0 | 24.89 | yes | Moabb |
+| [BNCI2014 004]() | 2014 | Motor Imagery | 2 | 9.0 | 3.0 | 250.0 | 40.5 | yes | Moabb |
+| [Grasp and Lift EEG Challenge](https://www.nature.com/articles/sdata201447) | 2014 | Motor Imagery |  | 12.0 | 32.0 | 500.0 | 11.72 | yes | - |
+| [Weibo2014](https://doi.org/10.1371/journal.pone.0114853) | 2014 | Motor Imagery | 7 | 10.0 | 60.0 | 200.0 | 6.22 | yes | Moabb |
+| [AlexMotor Imagery](https://theses.hal.science/tel-01196752/) | 2012 | Motor Imagery | 3 | 8.0 | 16.0 | 512.0 | 0.24 | yes | Moabb |
+| [GrosseWentrup2009](https://doi.org/10.1109/TBME.2008.2009768) | 2009 | Motor Imagery | 2 | 10.0 | 128.0 | 500.0 | 5.83 | yes | Moabb |
+| [EEG Motor Movement/Imagery Dataset](https://doi.org/10.1109/TBME.2004.827072) | 2004 | Motor Imagery | 4 | 109.0 | 64.0 | 160.0 | 58.13 | yes | Moabb |
+
 
 ### Emotion Recognition
 Emotion recognition is the task of identifying and classifying human emotions from physiological or behavioral signals, such as EEG, facial expressions, or speech.
@@ -103,11 +108,39 @@ Emotion recognition is the task of identifying and classifying human emotions fr
 ### Brain-to-text
 Brain-to-text is the process of decoding neural signals, such as EEG or ECoG, to translate brain activity into written or spoken language. It enables direct communication by mapping brain patterns to text, often using machine learning and neural decoding techniques.
 
+| Dataset | Year | Task | #Subjects | #Channels | Freq (Hz) | TotalTime (h) | LabSetting | Available in |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Thinking out loud](https://www.nature.com/articles/s41597-022-01147-2) | 2022 |  | 22 | 128 | 256 | 423.0 | yes |  |
+| [Bren and Hale](https://doi.org/10.1371/journal.pone.0207741) | 2019 |  | 49 | 61 | 500 | 9.8 | yes | link |
+| [ZuCo v1.0 and v2.0](https://doi.org/10.1038/sdata.2018.291) | 2018 | EEG2T | 12 | 21 | 500 | 25.0 | yes | - |
+| [Frank et al. ](https://doi.org/10.1016/j.bandl.2014.10.006) | 2015 |  | 24 | 32 | 250 | 36.0 | yes | link |
+
+
 ### Neurodegenerative diseases
 Detection of neurodegenerative diseases involves identifying biomarkers and patterns of neural deterioration using methods like neuroimaging (MRI, PET), electrophysiology (EEG, MEG), fluid biomarkers (CSF, blood), and cognitive assessments. Machine learning and AI are increasingly used to analyze these data for early diagnosis and progression tracking.
 
 ### Seizure Prediction
 Seizure prediction involves analyzing brain activity, typically from EEG, to detect patterns that precede epileptic seizures. Machine learning models and signal processing techniques identify preictal states, enabling early warnings and potential intervention to prevent or mitigate seizures.
+
+| Dataset | Year | Task | #Classes | #Subjects | #Channels | Freq (Hz) | TotalTime (h) | LabSetting |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [TUAR](https://doi.org/10.1109/SPMB52430.2021.9672302) | 2021 | SP | 5.0 | 14 | 23 | 256 | 92.22 |  |
+| [Siena Scalp EEG Database](https://doi.org/10.3390/pr8070846) | 2020 | SP |  | 14 | 31 | 512 | 30.47 |  |
+| [NICU](https://doi.org/10.1038/sdata.2019.39) | 2019 | SP |  | 79 | 19 | 256 | 79.0 |  |
+| [Helsinki University Hospital EEG](https://doi.org/10.1038/sdata.2019.39) | 2019 | SP |  | 79 | 19 | 256 | 97.43333333333334 | scalp |
+| [Neurology and Sleep  Centre Hauz Khas](https://doi.org/10.1109/TNSRE.2018.2818123) | 2018 | SP |  | 10 | 1 | 200 | 0.14222222222222222 | scalp |
+| [TUSZ](https://doi.org/10.3389/fninf.2018.00083) | 2018 | SP |  | 315 | 19 | 256 | 1138.53 |  |
+| [TUEP](https://doi.org/10.1109/SPMB.2017.8257044) | 2017 | SP |  | 100 | 19 | 256 | 591.22 |  |
+| [TUSL](https://doi.org/10.1109/SPMB.2017.8257018) | 2017 | SP |  | 112 | 23 | 256 | 20.59 |  |
+| [Kaggle American Epilepsy  Society Seizure Prediction Challenge](https://doi.org/10.1093/brain/aww045) | 2016 | SP |  | 3 | 16 | 400 | 841.1666666666666 | intracranial |
+| [EEG sample data](http://dx.doi.org/10.13140/RG.2.2.14280.32006) | 2016 | SP |  | 10 | 21 | 200 | 0.22 |  |
+| [Kaggle American Epilepsy  Society Seizure Prediction Challenge](https://doi.org/10.1093/brain/aww045) | 2016 | SP |  | 4 | 16 | 5000 | 841.1666666666666 | intracranial |
+| [UPenn and Mayo Clinic's  Seizure Detection Challenge ](https://www.kaggle.com/c/seizure-detection/overview) | 2014 | SP |  | 8 | 16 | 5000 | 16.55 | intracranial |
+| [UPenn and Mayo Clinic's  Seizure Detection Challenge ](https://www.kaggle.com/c/seizure-detection/overview) | 2014 | SP |  | 4 | 16 | 400 | 16.55 | intracranial |
+| [Neuro Vista Ictal](https://doi.org/10.1016/S1474-4422(13)70075-9) | 2013 | SP |  | 12 | 16 | 400 | 88.5425 | intracranial |
+| [CHB-MIT scalp EEG database](https://doi.org/10.13026/C2K01R) | 2010 | SP |  | 22 | 23 | 256 | 916.0 |  |
+| [University of Bonn](https://doi.org/10.1103/PhysRevE.64.061907) | 2001 | SP |  | 10 | 1 | 174 | 3.2777777777777777 | scalp / intracranial |
+
 
 ### Brain-to-image
 Brain-to-image is the process of reconstructing visual perceptions or mental imagery from brain activity using techniques like fMRI, EEG, or MEG. Machine learning models, including deep neural networks, map neural signals to visual representations, enabling applications in neuroscience, BCI, and artificial vision.
