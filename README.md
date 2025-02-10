@@ -1,7 +1,7 @@
 # BCI Resources Repository
 
 ## 🧠 Overview
-This is a curated collection of tools, datasets, research papers, tutorials, and software for anyone interested in **Brain-Computer Interface (BCI)** technologies. Whether you're a beginner or an experienced researcher, this repository is designed to be your go-to resource for exploring and innovating in the field of BCI.
+This repository provides supplementary material for the survey ***"On using AI for EEG-based BCI applications: problems, current challenges and future trends"***, which explores the application of artificial intelligence (AI) to scalp electroencephalography (EEG) decoding and brain-computer interfaces (BCIs). The survey discusses both foundational paradigms and emerging challenges, offering a structured perspective on real-world applications of AI in EEG-based BCIs.
 
 ---
 
