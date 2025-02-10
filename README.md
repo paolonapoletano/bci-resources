@@ -119,6 +119,29 @@ Brain-to-text is the process of decoding neural signals, such as EEG or ECoG, to
 ### Neurodegenerative diseases
 Detection of neurodegenerative diseases involves identifying biomarkers and patterns of neural deterioration using methods like neuroimaging (MRI, PET), electrophysiology (EEG, MEG), fluid biomarkers (CSF, blood), and cognitive assessments. Machine learning and AI are increasingly used to analyze these data for early diagnosis and progression tracking.
 
+| Dataset | Year | Task | #Classes | #Subjects | #Channels | Freq (Hz) | TotalTime (h) | LabSetting | #Recordings |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Falaschetti2024](https://doi.org/10.3390/s24206721) | 2024 | Dementia | 6 | 97 | 16 | 128 | 35.39472222222222 | yes | 97 |
+| [Miltiadous (ADFD)](http://doi.org/10.3390/data8060095) | 2023 | Dementia | 3 | 88 | 19 | 500 | 19.4 | yes | 88 |
+| [CAUEEG](https://doi.org/10.1016/j.neuroimage.2023.120054) | 2023 | Abnormality and Dementia | 2 (abnormality) or 3 (dementia) | 1155 (abnormality) | 19 | 200 | 306.59766666666667 | yes | 1379 (abnormality) or 1189 (dementia) |
+| [Alessandrini2023](https://doi.org/10.1109/SSP53291.2023.10208023) | 2023 | Dementia (AD, FTD) | 4 | 68 | 16 | 128 | 25.29861111111111 | yes | 68 |
+| [BrainLat (EEG-only portion)](https://doi.org/10.1038/s41597-023-02806-8) | 2023 | AD, bvFTD, PD, MS, HC | 5 | 157 | 128 | 512 | 235.5 |  |  |
+| [ADSZ (AD)](http://doi.org/10.1088/2632-072X/ac5f8d) | 2022 | Dementia (Alzheimer�s) | 2 | 48 | 19 | 128 | 0.10666666666666667 | yes | 48? |
+| [NMT Scalp EEG](https://doi.org/10.3389/fnins.2021.755817) | 2022 | Abnormality | 2 | 2417 | 19 | 200 | 625.0 | yes | 2417 |
+| [Alessandrini](https://doi.org/10.3390/s22103696) | 2022 | Dementia (Alzheimer�s) | 2 | 35 | 16 | 128 | 12.921666666666665 | yes | 35 |
+| [ADSZ (SZ)](http://doi.org/10.1088/2632-072X/ac5f8d) | 2022 | Schizophrenia | 2 | 84 | 16 | 128 | 1.4 | yes | 84? |
+| [Cejnek2021](https://doi.org/10.1007/s11517-021-02427-6) | 2021 | Dementia | 3 | 168 | 21 | 128 | 42.0 |  |  |
+| [UC San Diego Resting State EEG Data from Patients with Parkinson's Disease](https://doi.org/10.18112/openneuro.ds002778.v1.0.5) | 2020 | Parkinson's | 2025-03-02 00:00:00 | 31 | 32 | 512 | 2.4277777777777776 | yes | 46 |
+| [Lower-limb pedaling](https://doi.org/10.1016/j.clinph.2019.12.399) | 2020 | Parkinson's | 2025-03-02 00:00:00 | 39 | 64 | 500 |  |  |  |
+| [University of Iowa](https://doi.org/10.1016/j.parkreldis.2020.08.001) | 2020 | Parkinson's | 2 | 28 | 64 | 500 |  |  |  |
+| [Ieracitano2020](https://doi.org/10.1016/j.neunet.2019.12.006) | 2020 | Dementia | 3 | 189 | 19 | 1024 |  |  |  |
+| [catch 22" right now - in order for the GP agent to get the new setting it needs to connect to GP portal, but it ca]() | 2020 | Parkinson's | 2 | 54 | 64 | 500 |  |  |  |
+| [Durongbhan](https://doi.org/10.1109/TNSRE.2019.2909100) | 2019 | Dementia (Alzheimer�s) | 2 | 40 | 128 | 2000 | 0.26666666666666666 | yes |  |
+| [Hospital Universiti Kebangsaan Malaysia]() | 2018 | Parkinson's | 2 | 40 | 14 | 128 | 3.3333333333333335 |  | 40 |
+| [AFAVA (nome di ADformer: APAVA)](https://doi.org/10.1088/0967-3334/27/11/004) | 2006 | Dementia (Alzheimer�s) | 2 | 22 | 19 (16?) | 256 | 0.9166666666666666 | yes |  |
+| [noname]() | 1996 | Dementia | 2025-03-02 00:00:00 | 15 | 9 | 256 | 1.0 |  |  |
+
+
 ### Seizure Prediction
 Seizure prediction involves analyzing brain activity, typically from EEG, to detect patterns that precede epileptic seizures. Machine learning models and signal processing techniques identify preictal states, enabling early warnings and potential intervention to prevent or mitigate seizures.
 
