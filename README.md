@@ -27,7 +27,7 @@ The repository is organized into the following sections:
 The tables below, one for each task, provides an overview of key datasets used in BCI research. It includes details such as the year of publication, task type, number of classes, participants, and channels, as well as the sampling frequency, total recording time, whether the data was collected in a lab setting, and its availability in BCI frameworks.
 
 ![overview_image](imgs/Data_Time_Sub.png)
-*Datasets for EEG-BCI tasks. Metadata collected for six different tasks: Brain-to-Image (B2I), Brain-to-Text (B2T), Emotion Recognition (ER), Motor Imagery (MI), Neurodegenerative Disease (ND) and Seizure Prediction (SP). (a) For each task, the total recording time (in hours) and the total number of subjects are reported: the inner circle represents the total recording hours per task, while the outer circle indicates the total recording time for each dataset per task. (b) Distribution of sampling frequencies used for collecting each dataset, categorized by task. (c) Distribution of the number of EEG channels used for collecting each dataset, categorized by task.*
+*Datasets for EEG-BCI tasks. Metadata collected for six different tasks: Brain-to-Image (B2I), Brain-to-Text (B2T), Emotion Recognition (ER), Motor Imagery (MI), Neurodegenerative Disease (ND) and Seizure Prediction (SP). For each task, the total recording time (in hours) and the total number of subjects are reported: the inner circle represents the total recording hours per task, while the outer circle indicates the total recording time for each dataset per task.*
 
 
 ### Motor Imagery
