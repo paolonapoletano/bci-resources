@@ -1,4 +1,4 @@
-# EEG-based BCI Resources
+# On using AI for EEG-based BCI applications: resources
 
 ## 🧠 Overview
 This repository provides supplementary material for the survey ***"On using AI for EEG-based BCI applications: problems, current challenges and future trends"***, which explores the applications of artificial intelligence (AI) to scalp electroencephalography (EEG) decoding and brain-computer interfaces (BCIs). The survey discusses both foundational paradigms and emerging challenges, offering a structured perspective on real-world applications of AI in EEG-based BCIs.
