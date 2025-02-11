@@ -26,6 +26,8 @@ The repository is organized into the following sections:
 ## 📊 Datasets
 The tables below, one for each task, provides an overview of key datasets used in BCI research. It includes details such as the year of publication, task type, number of classes, participants, and channels, as well as the sampling frequency, total recording time, whether the data was collected in a lab setting, and its availability in BCI frameworks.
 
+![overview_image](imgs/Data_Time_Sub.png)
+
 ### Motor Imagery
 Motor Imagery (MI) in Brain-Computer Interface (BCI) applications refers to the mental simulation of movement without actual muscle activity. When a person imagines moving a limb (e.g., their left or right hand), specific patterns of brain activity, primarily in the sensorimotor cortex, can be detected using EEG. These patterns, often represented as event-related desynchronization (ERD) and event-related synchronization (ERS) in specific frequency bands (e.g., mu and beta), are used to decode the intended movement. MI-based BCIs enable applications like neurorehabilitation, prosthetic control, and communication for individuals with motor impairments.
 
