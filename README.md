@@ -1,7 +1,7 @@
-# BCI Resources Repository
+# EEG-based BCI Resources
 
 ## 🧠 Overview
-This repository provides supplementary material for the survey ***"On using AI for EEG-based BCI applications: problems, current challenges and future trends"***, which explores the application of artificial intelligence (AI) to scalp electroencephalography (EEG) decoding and brain-computer interfaces (BCIs). The survey discusses both foundational paradigms and emerging challenges, offering a structured perspective on real-world applications of AI in EEG-based BCIs.
+This repository provides supplementary material for the survey ***"On using AI for EEG-based BCI applications: problems, current challenges and future trends"***, which explores the applications of artificial intelligence (AI) to scalp electroencephalography (EEG) decoding and brain-computer interfaces (BCIs). The survey discusses both foundational paradigms and emerging challenges, offering a structured perspective on real-world applications of AI in EEG-based BCIs.
 
 ---
 
@@ -9,7 +9,7 @@ This repository provides supplementary material for the survey ***"On using AI f
 
 The repository is organized into the following sections:
 
-1. [Datasets](#datasets)
+1. [**Datasets**](#datasets)
    - Public EEG/BCI datasets for research and experimentation.
    - Includes motor imagery, visual evoked potentials (VEP), and more.
 
@@ -20,27 +20,6 @@ The repository is organized into the following sections:
 3. **Tutorials & Guides**  
    - Step-by-step guides to get started with BCI.
    - Advanced tutorials on signal processing and machine learning.
-
-4. **Research Papers**  
-   - A collection of foundational and cutting-edge BCI publications.
-
-5. **Hardware**  
-   - Recommendations for EEG devices and other BCI hardware.
-   - Guides on DIY and open-source setups.
-
-6. **Community & Events**  
-   - Links to conferences, workshops, and online forums.
-
----
-
-## 🚀 Getting Started
-
-To begin your BCI journey:
-
-1. Browse the repository structure and explore the resources.
-2. Check out the [Tutorials](#tutorials--guides) section for hands-on learning.
-3. Use the [Datasets](#datasets) to experiment with real-world EEG/BCI data.
-4. Dive deeper into the [Research Papers](#research-papers) for academic insights.
 
 ---
 
