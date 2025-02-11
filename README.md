@@ -145,24 +145,25 @@ Detection of neurodegenerative diseases involves identifying biomarkers and patt
 ### Seizure Prediction
 Seizure prediction involves analyzing brain activity, typically from EEG, to detect patterns that precede epileptic seizures. Machine learning models and signal processing techniques identify preictal states, enabling early warnings and potential intervention to prevent or mitigate seizures.
 
-| Dataset | Year | Task | #Classes | #Subjects | #Channels | Freq (Hz) | TotalTime (h) | LabSetting |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [TUAR](https://doi.org/10.1109/SPMB52430.2021.9672302) | 2021 | SP | 5.0 | 14 | 23 | 256 | 92.22 |  |
-| [Siena Scalp EEG Database](https://doi.org/10.3390/pr8070846) | 2020 | SP |  | 14 | 31 | 512 | 30.47 |  |
-| [NICU](https://doi.org/10.1038/sdata.2019.39) | 2019 | SP |  | 79 | 19 | 256 | 79.0 |  |
-| [Helsinki University Hospital EEG](https://doi.org/10.1038/sdata.2019.39) | 2019 | SP |  | 79 | 19 | 256 | 97.43 | scalp |
-| [Neurology and Sleep  Centre Hauz Khas](https://doi.org/10.1109/TNSRE.2018.2818123) | 2018 | SP |  | 10 | 1 | 200 | 0.14 | scalp |
-| [TUSZ](https://doi.org/10.3389/fninf.2018.00083) | 2018 | SP |  | 315 | 19 | 256 | 1138.53 |  |
-| [TUEP](https://doi.org/10.1109/SPMB.2017.8257044) | 2017 | SP |  | 100 | 19 | 256 | 591.22 |  |
-| [TUSL](https://doi.org/10.1109/SPMB.2017.8257018) | 2017 | SP |  | 112 | 23 | 256 | 20.59 |  |
-| [Kaggle American Epilepsy  Society Seizure Prediction Challenge](https://doi.org/10.1093/brain/aww045) | 2016 | SP |  | 3 | 16 | 400 | 841.16 | intracranial |
-| [EEG sample data](http://dx.doi.org/10.13140/RG.2.2.14280.32006) | 2016 | SP |  | 10 | 21 | 200 | 0.22 |  |
-| [Kaggle American Epilepsy  Society Seizure Prediction Challenge](https://doi.org/10.1093/brain/aww045) | 2016 | SP |  | 4 | 16 | 5000 | 841.16 | intracranial |
-| [UPenn and Mayo Clinic's  Seizure Detection Challenge ](https://www.kaggle.com/c/seizure-detection/overview) | 2014 | SP |  | 8 | 16 | 5000 | 16.55 | intracranial |
-| [UPenn and Mayo Clinic's  Seizure Detection Challenge ](https://www.kaggle.com/c/seizure-detection/overview) | 2014 | SP |  | 4 | 16 | 400 | 16.55 | intracranial |
-| [Neuro Vista Ictal](https://doi.org/10.1016/S1474-4422(13)70075-9) | 2013 | SP |  | 12 | 16 | 400 | 88.54 | intracranial |
-| [CHB-MIT scalp EEG database](https://doi.org/10.13026/C2K01R) | 2010 | SP |  | 22 | 23 | 256 | 916.0 |  |
-| [University of Bonn](https://doi.org/10.1103/PhysRevE.64.061907) | 2001 | SP |  | 10 | 1 | 174 | 3.27 | scalp / intracranial |
+| Dataset | Year | Task | #Subjects | #Channels | Freq (Hz) | TotalTime (h) | LabSetting |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [TUAR](https://doi.org/10.1109/SPMB52430.2021.9672302) | 2021 | SP | 14 | 23 | 256 | 92.22 |  |
+| [Siena Scalp EEG Database](https://doi.org/10.3390/pr8070846) | 2020 | SP | 14 | 31 | 512 | 30.47 |  |
+| [NICU](https://doi.org/10.1038/sdata.2019.39) | 2019 | SP | 79 | 19 | 256 | 79.0 |  |
+| [Helsinki University Hospital EEG](https://doi.org/10.1038/sdata.2019.39) | 2019 | SP | 79 | 19 | 256 | 97.43 | scalp |
+| [Neurology and Sleep  Centre Hauz Khas](https://doi.org/10.1109/TNSRE.2018.2818123) | 2018 | SP | 10 | 1 | 200 | 0.14 | scalp |
+| [TUSZ](https://doi.org/10.3389/fninf.2018.00083) | 2018 | SP | 315 | 19 | 256 | 1138.53 |  |
+| [TUEP](https://doi.org/10.1109/SPMB.2017.8257044) | 2017 | SP | 100 | 19 | 256 | 591.22 |  |
+| [TUSL](https://doi.org/10.1109/SPMB.2017.8257018) | 2017 | SP | 112 | 23 | 256 | 20.59 |  |
+| [Kaggle American Epilepsy  Society Seizure Prediction Challenge](https://doi.org/10.1093/brain/aww045) | 2016 | SP | 3 | 16 | 400 | 841.17 | intracranial |
+| [EEG sample data](http://dx.doi.org/10.13140/RG.2.2.14280.32006) | 2016 | SP | 10 | 21 | 200 | 0.22 |  |
+| [Kaggle American Epilepsy  Society Seizure Prediction Challenge](https://doi.org/10.1093/brain/aww045) | 2016 | SP | 4 | 16 | 5000 | 841.17 | intracranial |
+| [UPenn and Mayo Clinic's  Seizure Detection Challenge ](https://www.kaggle.com/c/seizure-detection/overview) | 2014 | SP | 8 | 16 | 5000 | 16.55 | intracranial |
+| [UPenn and Mayo Clinic's  Seizure Detection Challenge ](https://www.kaggle.com/c/seizure-detection/overview) | 2014 | SP | 4 | 16 | 400 | 16.55 | intracranial |
+| [Neuro Vista Ictal](https://doi.org/10.1016/S1474-4422(13)70075-9) | 2013 | SP | 12 | 16 | 400 | 88.54 | intracranial |
+| [CHB-MIT scalp EEG database](https://doi.org/10.13026/C2K01R) | 2010 | SP | 22 | 23 | 256 | 916.0 |  |
+| [University of Bonn](https://doi.org/10.1103/PhysRevE.64.061907) | 2001 | SP | 10 | 1 | 174 | 3.28 | scalp / intracranial |
+
 
 
 ### Brain-to-image
