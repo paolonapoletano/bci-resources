@@ -1,7 +1,7 @@
-# On using AI for EEG-based BCI applications: resources
+# On using AI for EEG-based BCI applications – additional resources
 
 ## 🧠 Overview
-This repository provides supplementary material for the survey ***"On using AI for EEG-based BCI applications: problems, current challenges and future trends"***, which explores the applications of artificial intelligence (AI) to scalp electroencephalography (EEG) decoding and brain-computer interfaces (BCIs). The survey discusses both foundational paradigms and emerging challenges, offering a structured perspective on real-world applications of AI in EEG-based BCIs.
+This repository provides supplementary material for the survey ***«On using AI for EEG-based BCI applications: problems, current challenges and future trends»***, which explores the applications of artificial intelligence (AI) to scalp electroencephalography (EEG) decoding and brain-computer interfaces (BCIs). The survey discusses both foundational paradigms and emerging challenges, offering a structured perspective on real-world applications of AI in EEG-based BCIs.
 
 ---
 
@@ -9,9 +9,14 @@ This repository provides supplementary material for the survey ***"On using AI f
 
 The repository is organized into the following sections:
 
-1. [**Datasets**](#datasets)
-   - Public EEG/BCI datasets for research and experimentation.
-   - Includes motor imagery, visual evoked potentials (VEP), and more.
+1. [**Datasets**](#-datasets): public EEG-BCI datasets for research and experimentation
+   - [Motor Imagery](#motor-imagery)
+   - [Emotion Recognition](#emotion-recognition)
+   - [Brain-to-Text](#brain-to-text)
+   - [Brain-to-Image](#brain-to-image)
+   - [Neurodegenerative Diseases](#neurodegenerative-diseases)
+   - [Seizure Prediction](#seizure-prediction)
+   - [Others](#others)
 
 2. **Software Tools**  
    - Libraries and frameworks for signal processing and analysis.
@@ -24,14 +29,14 @@ The repository is organized into the following sections:
 ---
 
 ## 📊 Datasets
-The tables below, one for each task, provides an overview of key datasets used in BCI research. It includes details such as the year of publication, task type, number of classes, participants, and channels, as well as the sampling frequency, total recording time, whether the data was collected in a lab setting, and its availability in BCI frameworks.
+The tables below, one for each task, provide an overview of key datasets used in BCI research. They include details such as the year of publication, task type, number of classes, participants, channels, as well as sampling frequency, (_estimates of_) total recording time, whether the data was collected in a lab setting, and its availability in BCI frameworks.
 
-![overview_image](imgs/Data_Time_Sub.png)
+![Datasets overview](imgs/Data_Time_Sub.png "Datasets overview")
 *Datasets for EEG-BCI tasks. Metadata collected for six different tasks: Brain-to-Image (B2I), Brain-to-Text (B2T), Emotion Recognition (ER), Motor Imagery (MI), Neurodegenerative Disease (ND) and Seizure Prediction (SP). For each task, the total recording time (in hours) and the total number of subjects are reported: the inner circle represents the total recording hours per task, while the outer circle indicates the total recording time for each dataset per task.*
 
 
 ### Motor Imagery
-Motor Imagery (MI) in Brain-Computer Interface (BCI) applications refers to the mental simulation of movement without actual muscle activity. When a person imagines moving a limb (e.g., their left or right hand), specific patterns of brain activity, primarily in the sensorimotor cortex, can be detected using EEG. These patterns, often represented as event-related desynchronization (ERD) and event-related synchronization (ERS) in specific frequency bands (e.g., mu and beta), are used to decode the intended movement. MI-based BCIs enable applications like neurorehabilitation, prosthetic control, and communication for individuals with motor impairments.
+Motor Imagery (MI) in BCI applications refers to the mental simulation of movement without actual muscle activity. When a person imagines moving a limb (e.g., their left or right hand), specific patterns of brain activity, primarily in the sensorimotor cortex, can be detected using EEG. These patterns, often represented as event-related desynchronization (ERD) and event-related synchronization (ERS) in specific frequency bands (e.g., mu and beta), are used to decode the intended movement. MI-based BCIs enable applications like neurorehabilitation, prosthetic control, and communication for individuals with motor impairments.
 
 | Dataset | Year | Task | #Classes | #Subjects | #Channels | Freq (Hz) | TotalTime (h) | LabSetting | Available in |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -85,11 +90,8 @@ Emotion recognition is the task of identifying and classifying human emotions fr
 | [Emobrain](https://www.isca-archive.org/einterface_2006/savran06_einterface.html) | 2006 | ER | V/A | 16 | 64.0 | 1024.0 | 4.94 | yes |
 
 
-
-
-
-### Brain-to-text
-Brain-to-text is the process of decoding neural signals, such as EEG or ECoG, to translate brain activity into written or spoken language. It enables direct communication by mapping brain patterns to text, often using machine learning and neural decoding techniques.
+### Brain-to-Text
+Brain-to-Text is the process of decoding neural signals, such as EEG or ECoG, in order to translate brain activity into written or spoken language. It enables direct communication by mapping brain patterns to text, often using machine learning and neural decoding techniques.
 
 | Dataset | Year | Task | #Subjects | #Channels | Freq (Hz) | TotalTime (h) | LabSetting | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
@@ -99,7 +101,29 @@ Brain-to-text is the process of decoding neural signals, such as EEG or ECoG, to
 | [Frank et al. ](https://doi.org/10.1016/j.bandl.2014.10.006) | 2015 | EEG2T | 24 | 32 | 250 | 36.0 | yes | 
 
 
-### Neurodegenerative diseases
+### Brain-to-Image
+Brain-to-Image is the process of reconstructing visual perceptions or mental imagery from brain activity using techniques like fMRI, EEG, or MEG. Machine learning models, including deep neural networks, map neural signals to visual representations, enabling applications in neuroscience, BCI, and artificial vision.
+
+| Dataset | Year | Task | #Subjects | #Channels | Freq (Hz) | TotalTime (?) | LabSetting |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [Image classification and reconstruction from low-density EEG](https://doi.org/10.1038/s41598-024-66228-1) | 2024 | Brain-to-image | 9 | 8 | 250 | 54.0 | yes |
+| [EEG-ImageNet](https://arxiv.org/abs/2406.07151) | 2024 | Brain-to-image | 16 | 62 | 1000 | 8.86 | yes |
+| [Alljoined1](https://arxiv.org/abs/2404.05553) | 2024 | Brain-to-image | 8 | 64 | 512 | 61.01 | yes |
+| [A large and rich EEG dataset for modeling human visual object recognition](https://doi.org/10.1016/j.neuroimage.2022.119754) | 2022 | Brain-to-image | 10 | 64 | 1000 | 63.0 | yes |
+| [THINGS-EEG](https://doi.org/10.1038/s41597-021-01102-7) | 2021 | Brain-to-image | 50 | 64 | 1000 | 36.05 | yes |
+| [Object classification from randomized EEG trials](https://doi.org/10.1109/CVPR46437.2021.00384) | 2021 | Brain-to-image | 1 | 96 | 4096 | 33.88 | yes |
+| [Reading into the mind�s eye](https://doi.org/10.1016/j.neucom.2019.12.076) | 2019 | Brain-to-image | 6 | 14 | 2048 | 4.0 | yes |
+| [The representational dynamics of visual objects in rapid serial visual processing streams](https://doi.org/10.1016/j.neuroimage.2018.12.046) | 2019 | Brain-to-image | 16 | 64 | 1000 | 13.33 | yes |
+| [The set of 22 sessions of 14-channel eeg signals recorded during watching pictures](https://doi.org/10.34808/1e5c-pp74) | 2018 | Brain-to-image | 10 | 14 |  | 338.0 | yes |
+| [IMAGENET of The Brain](https://mindbigdata.com/opendb/imagenet.html) | 2018 | Brain-to-image | 1 | 5 | 128 | 58.38 | yes |
+| [Envisioned speech recognition using EEG sensors](https://doi.org/10.1007/s00779-017-1083-4) | 2017 | Brain-to-image | 23 | 14 | 128 | 3.83 | yes |
+| [Brain2Image](https://doi.org/10.1145/3123266.3127907) | 2017 | Brain-to-image | 6 | 128 | 1000 | 2.3 | yes |
+| [Multivariate pattern analysis of MEG and EEG: A comparison of representational structure in time and space](https://doi.org/10.1016/j.neuroimage.2017.07.023) | 2017 | Brain-to-image | 16 | 74 | 1000 | 19.33 | yes |
+| [A Representational Similarity Analysis of the Dynamics of Object Processing Using Single-Trial EEG Classification](https://doi.org/10.1371/journal.pone.0135697) | 2015 | Brain-to-image | 10 | 128 | 1000 | 18.0 | yes |
+| ["MNIST" of Brain Digits](https://mindbigdata.com/opendb/index.html) | 2015 | Brain-to-image | 1 | vari | 128 - 512 | 670.0 | yes |
+
+
+### Neurodegenerative Diseases
 Detection of neurodegenerative diseases involves identifying biomarkers and patterns of neural deterioration using methods like neuroimaging (MRI, PET), electrophysiology (EEG, MEG), fluid biomarkers (CSF, blood), and cognitive assessments. Machine learning and AI are increasingly used to analyze these data for early diagnosis and progression tracking.
 
 | Dataset | Year | Task | #Classes | #Subjects | #Channels | Freq (Hz) | TotalTime (h) | LabSetting | #Recordings |
@@ -148,30 +172,7 @@ Seizure prediction involves analyzing brain activity, typically from EEG, to det
 | [University of Bonn](https://doi.org/10.1103/PhysRevE.64.061907) | 2001 | SP | 10 | 1 | 174 | 3.28 | scalp / intracranial |
 
 
-
-### Brain-to-image
-Brain-to-image is the process of reconstructing visual perceptions or mental imagery from brain activity using techniques like fMRI, EEG, or MEG. Machine learning models, including deep neural networks, map neural signals to visual representations, enabling applications in neuroscience, BCI, and artificial vision.
-
-| Dataset | Year | Task | #Subjects | #Channels | Freq (Hz) | TotalTime (?) | LabSetting |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [Image classification and reconstruction from low-density EEG](https://doi.org/10.1038/s41598-024-66228-1) | 2024 | Brain-to-image | 9 | 8 | 250 | 54.0 | yes |
-| [EEG-ImageNet](https://arxiv.org/abs/2406.07151) | 2024 | Brain-to-image | 16 | 62 | 1000 | 8.86 | yes |
-| [Alljoined1](https://arxiv.org/abs/2404.05553) | 2024 | Brain-to-image | 8 | 64 | 512 | 61.01 | yes |
-| [A large and rich EEG dataset for modeling human visual object recognition](https://doi.org/10.1016/j.neuroimage.2022.119754) | 2022 | Brain-to-image | 10 | 64 | 1000 | 63.0 | yes |
-| [THINGS-EEG](https://doi.org/10.1038/s41597-021-01102-7) | 2021 | Brain-to-image | 50 | 64 | 1000 | 36.05 | yes |
-| [Object classification from randomized EEG trials](https://doi.org/10.1109/CVPR46437.2021.00384) | 2021 | Brain-to-image | 1 | 96 | 4096 | 33.88 | yes |
-| [Reading into the mind�s eye](https://doi.org/10.1016/j.neucom.2019.12.076) | 2019 | Brain-to-image | 6 | 14 | 2048 | 4.0 | yes |
-| [The representational dynamics of visual objects in rapid serial visual processing streams](https://doi.org/10.1016/j.neuroimage.2018.12.046) | 2019 | Brain-to-image | 16 | 64 | 1000 | 13.33 | yes |
-| [The set of 22 sessions of 14-channel eeg signals recorded during watching pictures](https://doi.org/10.34808/1e5c-pp74) | 2018 | Brain-to-image | 10 | 14 |  | 338.0 | yes |
-| [IMAGENET of The Brain](https://mindbigdata.com/opendb/imagenet.html) | 2018 | Brain-to-image | 1 | 5 | 128 | 58.38 | yes |
-| [Envisioned speech recognition using EEG sensors](https://doi.org/10.1007/s00779-017-1083-4) | 2017 | Brain-to-image | 23 | 14 | 128 | 3.83 | yes |
-| [Brain2Image](https://doi.org/10.1145/3123266.3127907) | 2017 | Brain-to-image | 6 | 128 | 1000 | 2.3 | yes |
-| [Multivariate pattern analysis of MEG and EEG: A comparison of representational structure in time and space](https://doi.org/10.1016/j.neuroimage.2017.07.023) | 2017 | Brain-to-image | 16 | 74 | 1000 | 19.33 | yes |
-| [A Representational Similarity Analysis of the Dynamics of Object Processing Using Single-Trial EEG Classification](https://doi.org/10.1371/journal.pone.0135697) | 2015 | Brain-to-image | 10 | 128 | 1000 | 18.0 | yes |
-| ["MNIST" of Brain Digits](https://mindbigdata.com/opendb/index.html) | 2015 | Brain-to-image | 1 | vari | 128 - 512 | 670.0 | yes |
-
-
-### Other
+### Others
 This section includes a variety of tasks.
 
 | Dataset | Year | Task | #Subjects | #Channels | Freq (Hz) | TotalTime (?) | LabSetting | Available in |
@@ -189,10 +190,10 @@ This section includes a variety of tasks.
 | [SanDiegoSSVEPDataset](https://doi.org/10.1371/journal.pone.0140703) | 2015 | SSVEP | 10 | 8 | 256 | 2 | yes | torcheeg |
 | [SleepEDFxDataset](https://doi.org/10.1109/10.867928) | 2000 | Sleep stages | 197 | 2 | 100 | 1379 | no | torcheeg |
 
+<br>
 
+***<p align="center">Feel free to suggest additional datasets or update these tables via a pull request!</p>***
 
-
-Feel free to suggest additional datasets or update this table via a pull request!
 ---
 
 
