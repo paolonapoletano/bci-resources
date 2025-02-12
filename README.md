@@ -20,9 +20,7 @@ The repository is organized into the following sections:
 
 2. [**Software Tools**](#-software-tools): libraries and frameworks for EEG processing and analysis
 
-3. **Tutorials & Guides**  
-   - Step-by-step guides to get started with BCI.
-   - Advanced tutorials on signal processing and machine learning.
+3. [**Tutorials & Guides**](#-tutorials--guides): TBA
 
 ---
 
@@ -207,6 +205,12 @@ This section includes a variety of tasks.
 
 ---
 
+## 🎥 Tutorials & Guides
+
+TBA
+
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome to help expand and maintain this repository!  
@@ -222,14 +226,14 @@ Please follow the contribution guidelines in the [CONTRIBUTING.md](CONTRIBUTING.
 
 ## 📜 License
 
-This repository is licensed under the [MIT License](LICENSE).
+This repository is licensed under the [MIT License](LICENSE.md).
 
 ---
 
 ## 📬 Feedback & Contact
 
-Have suggestions, feedback, or found a broken link?  
-Feel free to [open an issue](https://github.com/your-repo/issues) or reach out via email at [paolo.napoletano@unimib.it](mailto:paolo.napoletano@unimib.it).
+Have suggestions, feedback, or found a broken link?
+Feel free to [open an issue](https://github.com/paolonapoletano/bci-resources/issues) or reach out via email at [paolo.napoletano@unimib.it](mailto:paolo.napoletano@unimib.it).
 
 ---
 
