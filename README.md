@@ -236,6 +236,18 @@ Have suggestions, feedback, or found a broken link?
 Feel free to [open an issue](https://github.com/paolonapoletano/bci-resources/issues) or reach out via email at [paolo.napoletano@unimib.it](mailto:paolo.napoletano@unimib.it).
 
 ---
+## Cite us
+
+If you find this work useful please cite our paper:
+```
+@article{barbera2025using,
+  title={On using AI for EEG-based BCI applications: problems, current challenges and future trends},
+  author={Barbera, Thomas and Burger, Jacopo and D'Amelio, Alessandro and Zini, Simone and Bianco, Simone and Lanzarotti, Raffaella and Napoletano, Paolo and Boccignone, Giuseppe and Contreras-Vidal, Jose Luis},
+  journal={arXiv preprint arXiv:2506.16168},
+  year={2025}
+}
+```
+---
 
 ## 🤝 Acknowledgments
 
